@@ -7,5 +7,9 @@
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/AI_and_ML</path>
 <path>/AI_and_ML/AI/ProblemSolving</path>
+<path>/AI_and_ML/AI/BayesNetworks</path>
+<path>/AI_and_ML/AI/Logic</path>
+<path>/AI_and_ML/AI/MachineLearning</path>
+<path>/AI_and_ML/AI/MDP</path>
 </pydev_pathproperty>
 </pydev_project>

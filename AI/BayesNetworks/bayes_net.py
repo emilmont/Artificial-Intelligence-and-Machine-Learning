@@ -57,7 +57,7 @@ SYM = {True:"", False:"-"}
 def describe(e):
     return ','.join([SYM[value]+name for name, value in e.iteritems()])
 
-def P(n, event, given, expected=None):
+def P(n, event, given={}, expected=None):
     p = n.P(event, given)
     
     description = describe(event)
