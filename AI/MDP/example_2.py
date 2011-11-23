@@ -1,4 +1,4 @@
-from grid import GridWorld
+from MDP.grid import GridWorld
 
 GRID = [[   0, 0, 0,   0],
         [-100, 0, 0, 100]]

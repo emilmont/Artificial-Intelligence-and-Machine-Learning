@@ -1,4 +1,4 @@
-from bayes import NaiveBayesClassifier, result
+from MachineLearning.bayes import NaiveBayesClassifier, result
 
 MOVIE = (
     "a perfect world",
@@ -29,7 +29,7 @@ c = NaiveBayesClassifier(MOVIE, SONG)
 result("MOVIE|perfect storm)", c.p_spam_given_phrase("perfect storm"))
 
 print "\n=== Homework 3.4 ==="
-from linear_regression import linear_regression
+from MachineLearning.linear_regression import linear_regression
 x = [0, 1, 2, 3,  4]
 y = [3, 6, 7, 8, 11]
 (w0, w1), err = linear_regression(x, y)

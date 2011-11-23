@@ -1,4 +1,4 @@
-from search import *
+from ProblemSolving.search import *
 
 ROMANIA_ROAD_MAP = [
     ("Arad", "Sibiu", 140),

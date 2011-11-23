@@ -1,4 +1,4 @@
-from search import *
+from ProblemSolving.search import *
 
 class BreadthFirstSearchLeftToRight(UniformCostSearch):
     def path_cost(self, path):

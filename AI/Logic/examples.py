@@ -1,4 +1,4 @@
-from logic import Proposition, implies
+from Logic.logic import Proposition, implies
 
 
 print "implies(True, True)   = %s" % implies(True, True)

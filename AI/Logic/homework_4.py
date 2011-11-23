@@ -1,4 +1,4 @@
-from logic import Proposition, implies
+from Logic.logic import Proposition, implies
 
 print Proposition(
     lambda s, f: implies(s, f) == (s or (not f)),

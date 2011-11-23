@@ -1,4 +1,4 @@
-from bayes_net import BayesNetwork, P
+from BayesNetworks.bayes_net import BayesNetwork, P
 
 print "\n=== Cancer Test ==="
 CANCER_TEST = (

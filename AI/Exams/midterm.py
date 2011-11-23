@@ -1,5 +1,5 @@
 print "\n=== Problem 2 ==="
-from search import generate_state_space, AStarSearch
+from ProblemSolving.search import generate_state_space, AStarSearch
 
 GRAPH = [
     ( "1",  "2", 10), ( "1",  "3", 10), ( "1",  "4", 10), ( "1",  "5", 10),
@@ -15,7 +15,7 @@ path, iterations = alg.search("1", "12", HEURISTIC, debug=True)
 print "Found path in %d iterations: %s" % (iterations, path)
 
 print "\n=== Problem 5 ==="
-from bayes_net import BayesNetwork, P
+from BayesNetworks.bayes_net import BayesNetwork, P
 COIN_NET = (
     ("F", 0.5),
     ("H1", (
@@ -48,7 +48,7 @@ P(n, {"B":True}, {"C":True})
 P(n, {"C":True}, {"B":True})
 
 print "\n=== Problem 8 ==="
-from bayes import NaiveBayesClassifier, result
+from MachineLearning.bayes import NaiveBayesClassifier, result
 SPAM = (
     "Top Gun",
     "Shy People",
@@ -65,7 +65,7 @@ result("OLD|Top", c.p_spam_given_word("Top"))
 
 
 print "\n=== Problem 10 ==="
-from linear_regression import linear_regression, gaussian
+from MachineLearning.linear_regression import linear_regression, gaussian
 x = [1.0, 3.0, 4.0, 5.0,  9.0]
 y = [2.0, 5.2, 6.8, 8.4, 14.8]
 (w0, w1), err = linear_regression(x, y)
@@ -73,7 +73,7 @@ print "(w0=%.1f, w1=%.1f) err=%.2f" % (w0, w1, err)
 
 
 print "\n=== Problem 12 ==="
-from logic import Proposition, implies
+from Logic.logic import Proposition, implies
 print Proposition(
     lambda a: not a,
              "not a"
@@ -101,7 +101,7 @@ print Proposition(
 
 
 print "\n=== Problem 14 ==="
-from grid import GridWorld
+from MDP.grid import GridWorld
 GRID = [[0, 0, None, 100],
         [0, 0,    0,   0]]
 

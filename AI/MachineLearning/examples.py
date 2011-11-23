@@ -1,4 +1,4 @@
-from bayes import NaiveBayesClassifier, result
+from MachineLearning.bayes import NaiveBayesClassifier, result
 
 
 SPAM = (
@@ -33,7 +33,7 @@ result("today|HAM",  c.ham.p_word("today"), 0.1111)
 result("SPAM|today is secret)", c.p_spam_given_phrase("today is secret"), 0.4858)
 
 
-from linear_regression import linear_regression, gaussian
+from MachineLearning.linear_regression import linear_regression, gaussian
 from scipy import matrix
 print "\n=== Linear Regression ==="
 x = [3,  4,  5,  6]
