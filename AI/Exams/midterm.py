@@ -117,3 +117,9 @@ g = GridWorld(GRID, PROB, STATES, 1, -5)
 i = g.value_iteration(0.1)
 print "Values after %d iterations:" % i
 print g
+
+print "\n=== Problem 15 ==="
+from Markov.markov import TransProb
+TRANSITIONS = [("A","A","A","A","B")]
+t = TransProb(TRANSITIONS)
+t.report(k=1)
