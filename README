@@ -1,8 +1,7 @@
-This project will contain my algorithm implementations for the Stanford's online
-courses:
+This project contains my algorithm implementations for the following online courses:
   * Introduction to Artificial Intelligence: http://www.ai-class.com
   * Introduction to Machine Learning: http://www.ml-class.com
+  * Programming a Robotic Car: http://www.udacity.com/overview/Course/cs373
 
-In observance of the Stanford's honor code, I will submit my code to this
-repository only after the correspondent homework assignments are officially
-closed.
+In observance of the honor code, I will submit my code to this repository only
+after the correspondent homework assignments are officially closed.
