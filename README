@@ -31,6 +31,9 @@ This project contains my algorithm implementations for the following online cour
     * Data Analysis with Python pandas and QSTK
     * Event profiling
     * Portfolio Optimization
+  
+  * Natural Language Processing: https://www.coursera.org/course/nlangp
+    * Hidden Markov models, and tagging problems: Viterbi algorithm
 
 In observance of the honor code, I will submit my code to this repository only
 after the correspondent homework assignments are officially closed.
